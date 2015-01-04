@@ -1,5 +1,4 @@
 # Site settings
-baseurl: /jekyll_blog
 title: Wind's zone
 email: wind@wind.com
 description: > # this means to ignore newlines until "baseurl:"
