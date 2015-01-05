@@ -1,0 +1,29 @@
+---
+layout: default
+title: 了解Maven
+---
+
+<div id="home">
+  <h1>{{page.title}}</h1>
+  <div class="posts">
+		<div>
+			<p>1.什么是Maven？</p> 
+			<p>maven英[ˈmeɪvn]美[ˈmevən]	专家，内行</p>
+		</div>
+		<div>
+			<p>如何安装</p>
+			<p>Unzip the distribution archive, i.e. apache-maven-3.1.1-bin.zip to the directory you wish to install Maven 3.1.1. These instructions assume you chose C:\Program Files\Apache Software Foundation. The subdirectory apache-maven-3.1.1 will be created from the archive.
+			Add the M2_HOME environment variable by opening up the system properties (WinKey + Pause), selecting the "Advanced" tab, and the "Environment Variables" button, then adding the M2_HOME variable in the user variables with the value C:\Program Files\Apache Software Foundation\apache-maven-3.1.1. Be sure to omit any quotation marks around the path even if it contains spaces. Note: For Maven   2.0.9, also be sure that the M2_HOME doesn't have a '\' as last character.
+			In the same dialog, add the M2 environment variable in the user variables with the value %M2_HOME%\bin.
+			Optional: In the same dialog, add the MAVEN_OPTS environment variable in the user variables to specify JVM properties, e.g. the value -Xms256m -Xmx512m. This environment variable can be used to supply extra options to Maven.
+			In the same dialog, update/create the Path environment variable in the user variables and prepend the value %M2% to add Maven available in the command line.
+			In the same dialog, make sure that JAVA_HOME exists in your user variables or in the system variables and it is set to the location of your JDK, e.g. C:\Program Files\Java\jdk1.5.0_02 and that %JAVA_HOME%\bin is in your Path environment variable.
+			Open a new command prompt (Winkey + R then type cmd) and run mvn --version to verify that it is correctly installed.</p>
+
+			<p>必须要有jdk</p>
+			<p>最简单的配置，path 后面添加 maven\bin 的路径</p>
+			<p>上面英文的意思就是首先要有jdk 然后配置M2_HOME maven的路径  再配置 M2 %M2_HOME%\bin  最后在path里加上%M2%</p>
+			<p>开一个cmd 敲入mvn -version verify 配置success</p>
+		</div>
+  </div>
+</div>
