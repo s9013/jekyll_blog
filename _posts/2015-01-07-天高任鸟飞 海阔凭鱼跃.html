@@ -1,0 +1,55 @@
+---
+layout: default
+title: 天高任鸟飞 海阔凭鱼跃
+---
+
+<div id="home">
+  <h1>{{page.title}}</h1>
+  <h1> <div id="time"></div></h1>
+	天高任鸟飞 海阔凭鱼跃
+</div>
+
+<script>
+
+/*
+* date 需要格式化的时间
+* farmatStr 需要格式化的样式 如：yyyy-MM-dd
+*/
+function dateFormat(date,formatStr){
+
+	// 转换成Date类型
+	var date = new Date(date);
+	var opt = {
+		'yyyy': date.getFullYear(),
+		'MM': addZero(date.getMonth() + 1),
+		'M': date.getMonth() + 1,
+		'dd': addZero(date.getDate()),
+		'd': date.getDate(),
+		'hh': addZero(date.getHours()),
+		'h': date.getHours(),
+		'mm': addZero(date.getMinutes()),
+		'm': date.getMinutes(),
+		'ss': addZero(date.getSeconds()),
+		's': date.getSeconds()
+	};
+	
+	// 如果是个位数则前面添加0
+	function addZero(value){
+		return value < 10 ? '0'+value : value;
+	}
+
+	// 遍历替换
+	for(var k in opt){
+		formatStr = formatStr.replace(k,opt[k]);
+	}
+
+	return formatStr;
+}  
+
+	var time = document.getElementById('time');
+	function timer(){
+		time.innerHTML = dateFormat(new Date(),'yyyy-MM-dd hh:mm:ss');
+		setTimeout("timer()",1000);
+	}
+	timer();
+</script>
