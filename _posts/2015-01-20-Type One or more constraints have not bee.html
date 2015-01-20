@@ -1,0 +1,22 @@
+---
+layout: default
+title: Type One or more constraints have not bee
+---
+
+<div id="home">
+  <h1>{{page.title}}</h1>
+  <P>Type One or more constraints have not bee</P>
+  <P><a href="http://stackoverflow.com/questions/23183931/maven-java-ee-configuration">stackoverflow上找到了解决方法</a></P>
+  <P>解决方法：</P>
+    <ul>
+	  <li>Go to project Build Path and change the Java Library version to 1.7</li>
+	  <li>Go to Eclipse Preferences -> Java -> Compilre -> Change compliance level to 1.7</li> 
+	  <li>Right click on project -> Properties -> Project Facets</li>
+	  <li>Uncheck Dynamic Web Module and click Apply (also uncheck JavaServer Faces if you had that)</li>
+	  <li>Change the Java facet version to 1.7 and click Apply</li>
+	  <li>Add the Dyanmic Web Module v3.0, apply.</li>
+	  <li>Eclipse's facets configuration is buggy. Make sure you keep hitting Apply between checking and unchecking of facets.</li>
+     </ul>
+
+</div>
+
