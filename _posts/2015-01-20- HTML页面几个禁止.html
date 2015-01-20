@@ -1,0 +1,13 @@
+---
+layout: default
+title: HTML页面几个禁止
+---
+
+<div id="home">
+  <h1>{{page.title}}</h1>
+  <p>oncontextmenu="return false" //禁止鼠标右键</p>
+  <p>ondragstart="return false" //禁止鼠标拖动</p>
+  <p>onselectstart="return false"//禁止选中文字</p>
+  <p>onselect="document.selection.empty()"//禁止复制文本</p>
+</div>
+
