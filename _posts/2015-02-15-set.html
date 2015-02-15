@@ -1,0 +1,19 @@
+---
+layout: default
+title: set contains
+---
+
+<div id="home">
+  <h1>{{page.title}}</h1>
+  <pre>
+		Set<String> set = new HashSet<String>();
+		set.add("1");
+		set.add("2");
+		set.add("3");
+		set.add("4");
+		
+		System.out.println(set.contains(1)); false
+		System.out.println(set.contains("1")); true
+  </pre>
+</div>
+
