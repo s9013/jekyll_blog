@@ -1,0 +1,28 @@
+---
+layout: post
+title:  "programmer"
+categories: jekyll article
+---
+-	**什么是代码**
+-	**什么是程序**
+-	**什么是程序员**
+
+
+###*If you can't explain it simply, you don't understand it well enough.*###
+###*如果你不能简单说清楚，就是你没完全明白。*###
+
+
+程序就是由一系列指令组成，以来解决问题。
+通常点使用的电脑、各种软件、手机app都是程序，而程序是由代码组成的，代码
+就是根据一种语言规范去写的，经过编译成二进制，电脑能懂得。我们平时说的汉语
+英语也都有各自的语法，计算机语言也都有各自的语法归法，按着这种归法去写的人
+就是程序员，programmer。
+
+##wiki上的解释##
+A computer program, or just a program, is a sequence of instructions, written to perform a specified task with a computer.[1] A computer requires programs to function, typically executing the program's instructions in a central processor.[2] The program has an executable form that the computer can use directly to execute the instructions. The same program in its human-readable source code form, from which executable programs are derived (e.g., compiled), enables a programmer to study and develop its algorithms. A collection of computer programs and related data is referred to as the software.
+
+Computer source code is typically written by computer programmers.[3] Source code is written in a programming language that usually follows one of two main paradigms: imperative or declarative programming. Source code may be converted into an executable file (sometimes called an executable program or a binary) by a compiler and later executed by a central processing unit. Alternatively, computer programs may be executed with the aid of an interpreter, or may be embedded directly into hardware.
+
+Computer programs may be ranked along functional lines: system software and application software. Two or more computer programs may run simultaneously on one computer from the perspective of the user, this process being known as multitasking.
+
+*待续...*
