@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "JAVA生成API"
+categories: article
+---
+
+##写规范的代码，做好的程序猿
+作为一个程序猿头疼的问题很多，代码没有注释，真心头大，尤其是看别人没有注释的代码。以后写代码多写注释吧。能生成api。
+
+###生成javadoc遇到的编码问题
+-	project
+-	Generate JavaDoc
+-	最后一步时在VM options 中输入-encoding utf-8 -charset utf-8
+
+**bingo**
