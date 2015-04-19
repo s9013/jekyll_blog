@@ -1,0 +1,33 @@
+---
+layout: post
+title:  "Mongodb"
+categories: jekyll article
+---
+
+##Mongodb
+
+[官网下载](http://www.mongodb.org/downloads)
+
+- 解压
+- 配置
+- 配置服务
+
+	参考 http://www.cnblogs.com/mecity/archive/2011/06/11/2078527.html
+
+	创建mongodb文件夹 把bin复制到这个文件夹里面 创建data文件夹 在data里创建db文件夹 log文件夹 在log文件夹里创建Mongodb.log
+	
+	启动 mongod -dbpath D:\mongodb\bin (bin的路径)
+	
+	浏览器中输入 http://localhost:27017/
+	会出现 It looks like you are trying to access MongoDB over HTTP on the native driver port.
+
+	到bin中找到mongo.exe 点击 
+
+	show dbs 查看当前数据库
+##java驱动
+
+。。。
+
+##spring data mongodb
+
+。。。
