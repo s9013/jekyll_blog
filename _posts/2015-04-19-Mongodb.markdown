@@ -24,6 +24,7 @@ categories: jekyll article
 	到bin中找到mongo.exe 点击 
 
 	show dbs 查看当前数据库
+
 ##java驱动
 
 。。。
