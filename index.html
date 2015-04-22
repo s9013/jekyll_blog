@@ -6,8 +6,7 @@ title: Home
 <div class="home">
 
 {% for category in site.categories %}
-      <h2>{{ category | first }}</h2>
-      </span>{{ category | last | size }}</span>
+      <span>{{ category | first }}</span>
 {% endfor %}
 
 <h1>分类</h1>
