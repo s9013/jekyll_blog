@@ -12,20 +12,20 @@ title: Home
   </div> -->
 
 <h1>分类</h1>
-  {% for category in site.categories %}
-      <h2>{{ category | first }}</h2>
-      </span>{{ category | last | size }}</span>
-      <ul class="post-list">
-          {% for post in category.last %}
-             <li>
-                <span class="post-meta">{{ post.date | date: "%Y-%m-%d" }}</span>
-                <h2>
-                  <a class="post-link" href="./{{ post.url }}">{{ post.title }}</a>
-                </h2>
-            </li>
-          {% endfor %}
-      </ul>
-  {% endfor %}
+<!--   {% for category in site.categories %}
+    <h2>{{ category | first }}</h2>
+    </span>{{ category | last | size }}</span>
+    <ul class="post-list">
+        {% for post in category.last %}
+           <li>
+              <span class="post-meta">{{ post.date | date: "%Y-%m-%d" }}</span>
+              <h2>
+                <a class="post-link" href="./{{ post.url }}">{{ post.title }}</a>
+              </h2>
+          </li>
+        {% endfor %}
+    </ul>
+{% endfor %} -->
 
    <hr>
 
