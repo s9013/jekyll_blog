@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Android list 自动高度"
-categories: jekyll update
+categories: Andorid
 ---
 
 ###Android list 自动高度###

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "JAVA异常处理"
-categories: jekyll update
+categories: Java
 ---
 
 

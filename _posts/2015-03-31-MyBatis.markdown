@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "MyBatis"
-categories: jekyll article
+categories: Java
 ---
 #MyBatis
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "jap"
-categories: jekyll update
+categories: Java
 ---
 #JAP
 

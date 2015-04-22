@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "JAVA生成API"
-categories: article
+categories: Java
 ---
 
 ##写规范的代码，做好的程序猿

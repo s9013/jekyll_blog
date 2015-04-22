@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "programmer"
-categories: jekyll article
+categories: 随笔
 ---
 -	**什么是代码**
 -	**什么是程序**

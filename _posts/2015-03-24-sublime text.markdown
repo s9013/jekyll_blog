@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "sublime text"
-categories: jekyll update
+categories: Tool
 ---
 ##1.[sublime text](http://www.sublimetext.com/3)
 	
