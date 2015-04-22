@@ -23,7 +23,7 @@
 
       <div class="trigger">
         {% for category in site.categories %}
-            <span>{{ category | first }}</span>
+            <a class="page-link" href="{{ page.url }}">{{ category | first }}</a>
         {% endfor %}
      </div>
     </nav>
