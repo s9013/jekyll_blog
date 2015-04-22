@@ -10,3 +10,8 @@ github_username:  wind
 
 # Build settings
 markdown: kramdown
+
+excerpt_separator: "\n\n\n"
+safe: false
+pygments: true
+paginate: 5
