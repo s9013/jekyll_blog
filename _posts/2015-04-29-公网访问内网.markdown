@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "公网访问内网"
+categories: java
+---
+
+##公网访问内网
+
+
+- ngrok
+- 花生壳
+
+
