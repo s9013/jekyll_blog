@@ -1,0 +1,65 @@
+---
+layout: post
+title:  "浏览器的全屏"
+categories: 前端
+---
+
+###问题：浏览器全屏，window.close()关闭###
+
+##Chrome
+	
+  	全屏	
+	快捷启动后面加参数 --kiosk
+	在此状态下，f11没用
+	
+	遇到的是问题35版本以上不能使用window.close()
+	找到个35版本的
+	window.opener=null;
+    window.open('', '_self', ''); 
+    window.close();
+	关闭浏览器 
+
+##Firefox
+
+###下载插件stylish
+
+	@namespace url(http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul);
+	
+	#main-window {
+	    background: white;
+	}
+	
+	#main-window #titlebar-buttonbox {
+	    display: none
+	}
+	 
+	/*地址栏*/
+	#urlbar{
+		display: none;
+	}
+	
+	tab{
+		display: none;
+	}
+	
+	/*菜单栏*/
+	#toolbar-menubar{
+		display: none;
+	}
+	
+	/*书签栏*/
+	#PersonalToolbar {
+		display: none;
+	}
+	
+	/*新建tab*/
+	.tabs-newtab-button {
+	       display: none;
+	}
+	
+	toolbar#nav-bar{
+		display: none;
+	}
+
+![scorption](https://avatars0.githubusercontent.com/u/8603342?v=3&u=17c90bd9ee618bb5472870d9932994e1e287c08f&s=140)
+
