@@ -1,0 +1,82 @@
+---
+layout: post
+title:  "maven构建项目"
+categories: Java
+---
+
+#maven构建项目
+
+	Maven 	约定优于配置
+
+##创建一个新的maven项目
+
+	在命令行使用Maven Archetype(['ɑːkɪtaɪp] 原型)插件
+
+	mvn archetype:create -DgrounId=com.metro -DartifactId=metro
+	
+	第一次运行需要一些时间去下载工具包artifacts
+	
+
+	http://www.cnblogs.com/yjmyzz/p/3495762.html
+	创建项目骨架
+	mvn archetype:generate
+
+	...
+
+	编译项目
+	mvn clean compile
+
+	单元测试
+	mvn clean test
+
+	项目打包
+	mvn clean package
+
+	项目运行
+	该项目中的App.java中有main方法，可以直接运行，常规方式下，我们如果想直接运行class文件，得敲一段很长的命令，maven中不必这么复杂，先用记事本打开项目根目录下的pom.xml文件，增加下面这节内容：
+	
+	<build>
+	    <finalName>${project.artifactId}</finalName>
+	    <plugins>
+	        <plugin>
+	            <groupId>org.codehaus.mojo</groupId>
+	            <artifactId>exec-maven-plugin</artifactId>
+	            <version>1.2.1</version>
+	            <executions>
+	                <execution>
+	                    <goals>
+	                        <goal>exec</goal>
+	                    </goals>
+	                </execution>
+	            </executions>
+	            <configuration>
+	                <executable>java</executable>          
+	                <arguments>                       
+	                    <argument>-classpath</argument>
+	                    <classpath>
+	                    </classpath>
+	                    <argument>metro.App</argument>
+	                </arguments>
+	            </configuration>
+	        </plugin>
+	    </plugins>
+	</build>
+	上述这段内容插入在</project>之前即可。
+	
+	mvn exec:exec
+
+
+##导进eclipse
+	导进eclipse不行 不是java项目
+	在pom路径命令行 mvn eclipse:eclipse
+	这是项目会多出两个文件 .calsspath .project
+	这时可以导入eclipse但是有问题
+	命令行运行 mvn eclipse:clean
+	右键点击你的工程，并且选择 “Configure -> Convert into Maven Project”
+
+##ref
+
+	http://wentao365.iteye.com/blog/903396
+	maven实战指南
+	http://blog.chinaunix.net/uid-21209537-id-3014351.html
+	http://andinker.iteye.com/blog/1808030
