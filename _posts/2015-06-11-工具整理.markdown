@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "工具整理"
+categories: 乱七八糟
+---
+
+#个人整理
+
+##工具
+
+
+###查找文件
+-  [everything](http://www.voidtools.com/downloads)  快速查找电脑中的文件
+
+###快速启动程序 解放鼠标
+-	[Executor](http://www.executor.dk)
+-	[Launchy](http://launchy.net)
