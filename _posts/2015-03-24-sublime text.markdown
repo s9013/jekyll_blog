@@ -20,6 +20,13 @@ categories: Tool
 - Sublime Prefixr
 - ...
 
+##快捷键（shortcut key）
+
+
+
+1. Ctr + Shift + L		将选中的多行同时进行编辑
+2. Ctrl+J 				将选中的多行代码为一行
+
 待续...
 
 
