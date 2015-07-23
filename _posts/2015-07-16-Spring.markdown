@@ -6,6 +6,12 @@ categories: Java
 
 #Spring
 
+bean
+
+
+	<bean id="helloServiceImpl" class="com.pluto.service.impl.HelloServiceImpl" ></bean>
+
+
 注解
 
 

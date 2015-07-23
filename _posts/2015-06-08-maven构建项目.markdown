@@ -80,3 +80,8 @@ categories: Java
 	maven实战指南
 	http://blog.chinaunix.net/uid-21209537-id-3014351.html
 	http://andinker.iteye.com/blog/1808030
+
+
+##maven构建web项目
+	<packaging>war</packaging>
+	jar war的区别
