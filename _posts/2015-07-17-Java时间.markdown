@@ -1,0 +1,25 @@
+---
+layout: post
+title:  "Java 时间"
+categories: Java
+---
+
+#Java 时间
+
+	定义SimpleDateFormart对象，然后使用掩码定义是就可以了。像你的要求可以定义为 
+	hh:mm使用12小时制
+	HH：mm是24小时制
+
+
+![scorption](https://avatars0.githubusercontent.com/u/8603342?v=3&u=17c90bd9ee618bb5472870d9932994e1e287c08f&s=140)
+
+
+//		SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
+//		Date date = null;
+//		try {
+//			date = sdf.parse(sdf.format(new Date()));
+//		} catch (ParseException e) {
+//			e.printStackTrace();
+//		}
+
+
